@@ -1,0 +1,35 @@
+{
+  "name": "wechat-request",
+  "version": "1.5.0",
+  "description": "基于Promise微信小程序http请求，轻便，小巧，api友好，功能丰富",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config=webpack.prod.js --mode development",
+    "build": "webpack --config=webpack.prod.js --mode production"
+  },
+  "keywords": [
+    "request",
+    "wechat",
+    "promise",
+    "http",
+    "微信小程序"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hatedMe/wechat-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hatedMe/wechat-request/issues"
+  },
+  "license": "ISC",
+  "author": "Atom <7548764@qq.com>",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
